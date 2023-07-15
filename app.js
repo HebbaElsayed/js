@@ -1,4 +1,5 @@
-const validate = require('./validator');
-
-const isValid = validate('heba', 'heba@icloud.com', 'password123', 21, 'Female');
-console.log(isValid);
+const result=require('./calc')
+result.sum(4,2)
+result.sub(4,2)
+result.multi(4,2)
+result.div(4,2)
